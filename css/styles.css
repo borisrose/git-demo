@@ -1,0 +1,66 @@
+/* il s'agit de sélecteurs puis vous avez les accolades  
+{ et les propriétés css déclarées} */
+
+/* sélecteur universelle applique les propriétés déclarés à tous
+les éléments html
+*/
+* {
+
+    box-sizing: border-box;
+}
+
+
+html {
+
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+    color: green;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+button {
+    font-size: 20px;
+    border: none;
+    margin: 10px 0;
+    background-color: white;
+}
+
+
+#id-button {
+    background-color: black;
+}
+
+.h1--color {
+    color: red;
+}
+
+/* ceci est un sélecteur de classe
+cela est visible avec le .
+*/
+.button--background-yellow {
+    background-color: yellow;
+}
+
+
+span {
+    display: block;
+}
+
+
+/* button + button {
+    background-color: yellow;
+    font-size: 3em;
+} */
+
+
+/* footer button:nth-child(2){
+    background-color: yellow;
+} */
